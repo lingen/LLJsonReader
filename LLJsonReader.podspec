@@ -89,8 +89,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+  s.source_files  = "LLJsonReader", "LLJsonReader/**/*.{h,m}"
+  s.exclude_files = "LLJsonReader/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
@@ -114,7 +114,7 @@ Pod::Spec.new do |s|
   #  Link your library with frameworks, or libraries. Libraries do not include
   #  the lib prefix of their name.
   #
-
+  s.frameworks   = 'UIKit','Foundation'
   # s.framework  = "SomeFramework"
   # s.frameworks = "SomeFramework", "AnotherFramework"
 
