@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "LLJsonReader"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "一个 JSON 读取工具"
 
   # This description is used to generate tags and improve search results.
